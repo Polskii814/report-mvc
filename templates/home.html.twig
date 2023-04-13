@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+     <h1>Homepage</h1>
+    <p> Jag heter Marcel Lagodziuk, 22 år gammal och bor i Köinge utanför Ullared. Studerar Webbprogrammering på Blekinge Tekniska Högskola. Jag jobbar också samtidigt inom Detaljförsäljning på Gekås Ullared.</p>
+    <a href="{{ asset('img/profilepic.jpg') }}">
+        <img src="{{ asset('img/profilepic.jpg') }}" alt="Profile picture" width="200" height="200">
+    </a>
+{% endblock %}

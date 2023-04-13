@@ -1,0 +1,38 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Report{% endblock %}
+
+{% block body %}
+
+<h1>Kmom01</h1>
+
+    <ul style="background-color: white">
+        <p>Berätta kort om dina förkunskaper och tidigare erfarenheter kring objektorientering:</p>
+        <p>Den erfarenheten jag har är nog endast från förra kursen oopython som jag hade.Förkunskaperna är väl att jag har gjort uppgifter/övningar i just den kursen och att jag börjar få lite grepp i vad objektorientering innebär.</p>
+
+        <p>Berätta kort om PHPs modell för klasser och objekt. Vilka är de grunder man behöver veta/förstå för att kunna komma igång och skapa sina första klasser? :</p>
+        <p>Om man kollar ifrån objektorienteringsvyn så ska man först och främst veta att objekt skapas utifrån själva klassen, så en klass är helt enkelt en mall som man kan använda sig av för att skapa nya objekt. När man är färdig med att skapa ett objekt så kallas det en instans av själva klassen.</p>
+
+        <p>Reflektera kort över den kodbas, koden, strukturen som användes till uppgiften me/report, hur uppfattar du den?:</p>
+        <p>Jag tycker att själva strukturen av kodbasen är väldigt frammåt uppbygd och enkel att följa. Det finns en controller som styr alla routes som sidan använder sig av, sen finns det templates som kan både ha sin egna style eller dela med en annan template om man behöver göra det enklare. Sen kan man också använda sig av en vanlig CSS-kod eller göra det mer avancerat med att applicera SCSS, men i helheten så har jag kunnat följa hela strukturen än så länge.</p>
+        
+        <p>Med tanke på artikeln “PHP The Right Way”, vilka delar in den finner du extra intressanta och värdefulla? Är det några särskilda områden som du känner att du vill veta mer om? Lyft fram några delar av artikeln som du känner mer värdefulla:</p>
+        <p>Jag har läst igenom en liten del av själva dokumentet "PHP The Right Way" och
+        delen som jag tyckte som mest om var nog stycket om Säkerheten. Jag har tyckt
+        sen länge att den viktigaste delen av webben är själva säkerheten och jag hoppas
+        att vi kan lära oss mer om det i framtiden.
+        </p>
+        
+        <p>Vilken är din TIL för detta kmom? :</p>
+        <p>Min TIL för detta kmom är nog kommandot "bin/console debug:router" som hjälpte mig att se över om hemsidan kunde känna till alla routes jag skapade utan att få massor av felmeddelanden under uppgiftens gång.</p>
+
+    </ul>
+
+<h1>Kmom02</h1>
+
+<h1>Kmom03</h1>
+
+<h1>Kmom04</h1>
+
+
+{% endblock %}
